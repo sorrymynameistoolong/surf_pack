@@ -1,0 +1,38 @@
+Package: naiveproxy
+Version: 109.0.5414.74-1-1
+Depends: libc, libatomic1
+License: BSD 3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2565404
+Filename: naiveproxy_109.0.5414.74-1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2558306
+SHA256sum: eaade145e2c743911b7408bafd59f7d28ed2d347a4f81e312ff41abe415996e3
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3442
+Filename: tcping_0.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4153
+SHA256sum: 392945b35d1e6597f07c82f203e4aada90f01b80fc5dbb61ff75b0c7aeeed0d2
+Description:  tcping measures the latency of a tcp-connection
+
+Package: v2ray-plugin
+Version: 5.2.0-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4769483
+Filename: v2ray-plugin_5.2.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4763928
+SHA256sum: bdd1e27d50c70adfc056c5c164e8fdcbfbe383676c81c5562e1f0bd4744e4cae
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
