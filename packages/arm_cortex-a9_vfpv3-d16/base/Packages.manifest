@@ -779,6 +779,22 @@ Size: 144671
 SHA256sum: c78a91be0a6d7582b6d48207a3c78ccf9d0f703c9370adf208eba7ec3e9651a7
 Description:  Routing control utility (minimal)
 
+Package: ipset
+Version: 7.15-2
+Depends: libc, kmod-ipt-ipset, libmnl0, libipset13
+Source: feeds/base/package/network/utils/ipset
+SourceName: ipset
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1665837957
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1265
+Filename: ipset_7.15-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2046
+SHA256sum: 3d58c43fc82686a1090a8b966fa57fa4e6753d3652ca1a274674ee6e79ab453f
+Description:  IPset administration utility
+
 Package: iwinfo
 Version: 2022-08-19-0dad3e66-1
 Depends: libc, libiwinfo20210430
@@ -1453,6 +1469,24 @@ Size: 928
 SHA256sum: c9495c4d8375fee57ac60e68db68b8319f2eacabb76de6fdac8c4c33f602252a
 Description:  Tiny drop-in replacement for the GNU Character set conversion library
 
+Package: libipset13
+Version: 7.15-2
+Depends: libc, kmod-ipt-ipset, libmnl0
+Provides: libipset
+Source: feeds/base/package/network/utils/ipset
+SourceName: libipset
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1665837957
+ABIVersion: 13
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 43998
+Filename: libipset13_7.15-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 44437
+SHA256sum: 1bba9b897452934dcc7eeb45181ad9a49f6ec9252f8b5eb1d305dba01f558fb6
+Description:  IPset administration utility
+
 Package: libiwinfo-data
 Version: 2022-08-19-0dad3e66-1
 Depends: libc
@@ -1543,6 +1577,25 @@ Size: 5019
 SHA256sum: 8fa60b9425ac187e1c3a35527c353e7f1ed743b963248f30b627dbd2a55e610c
 Description:  Minimalistic JSON based scripting engine
 
+Package: libltdl7
+Version: 2.4.6-2
+Depends: libc
+Provides: libltdl
+Source: feeds/base/package/libs/libtool
+SourceName: libltdl
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1665837957
+ABIVersion: 7
+CPE-ID: cpe:/a:gnu:libtool
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 13335
+Filename: libltdl7_2.4.6-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 14047
+SHA256sum: d57e739dade4d1c13a3eb3234fc6916a26ae1112fb2c5f4680cbd45b37a9386b
+Description:  A generic dynamic object loading library
+
 Package: liblua5.1.5
 Version: 5.1.5-10
 Depends: libc
@@ -1563,6 +1616,25 @@ SHA256sum: d0e0faa6915bbaf400ac179d348a44c24104e40bb0810bec9ba9891af4b5fd73
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: liblua5.3-5.3
+Version: 5.3.5-5
+Depends: libc
+Provides: liblua5.3
+Source: feeds/base/package/utils/lua5.3
+SourceName: liblua5.3
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: libs
+SourceDateEpoch: 1665837957
+ABIVersion: -5.3
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 77197
+Filename: liblua5.3-5.3_5.3.5-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 77723
+SHA256sum: 45161dfabb5528ead390a57d259eab1450a95b1f1fd5a63f14da2214b963ab27
+Description:  
  This package contains the Lua shared libraries, needed by other programs.
 
 Package: libmbedtls12
@@ -1624,6 +1696,40 @@ Description:  libmnl is a minimalistic user-space library oriented to Netlink de
  is reduced, i.e. the library provides many helpers, but the programmer is not
  forced to use them.
 
+Package: libncurses-dev
+Version: 6.3-1
+Depends: libc, zlib
+Source: feeds/base/package/libs/ncurses
+SourceName: libncurses-dev
+License: MIT
+LicenseFiles: README
+Section: devel
+SourceDateEpoch: 1665837957
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 247163
+Filename: libncurses-dev_6.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 246094
+SHA256sum: 7fcda508e6e8a9236da0b4643ca4b5d1a69ea79e81372c99f4a2eac0fae464ae
+Description:  Development files for the ncurses library
+
+Package: libncurses6
+Version: 6.3-1
+Depends: libc, terminfo
+Provides: libncursesw, libncurses, libncursesw6
+Source: feeds/base/package/libs/ncurses
+SourceName: libncurses
+License: MIT
+LicenseFiles: README
+Section: libs
+SourceDateEpoch: 1665837957
+ABIVersion: 6
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 157939
+Filename: libncurses6_6.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 156268
+SHA256sum: 3e858deecc5062f6ec12b623d1365b005b88683c9fa4dc9cb11c4f0c6efac229
+Description:  Terminal handling library (Unicode)
+
 Package: libnftnl11
 Version: 1.2.1-1
 Depends: libc, libmnl0
@@ -1678,6 +1784,192 @@ Filename: libopcodes_2.37-2_arm_cortex-a9_vfpv3-d16.ipk
 Size: 55684
 SHA256sum: 79407f49b9ffae5f3cb3089b2bbb2d6da9f6e1eab34c3c8e146fcc1234eb6678
 Description:  libopcodes
+
+Package: libopenssl-afalg
+Version: 1.1.1q-1
+Depends: libc, libopenssl1.1, libopenssl-conf, kmod-crypto-user
+Source: feeds/base/package/libs/openssl
+SourceName: libopenssl-afalg
+License: OpenSSL
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1665837957
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5483
+Filename: libopenssl-afalg_1.1.1q-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6680
+SHA256sum: 86f82bf12b27eefaf9d809aa80bc49475de887d512e79c6ded7242a86116b2fc
+Description:  This package adds an engine that enables hardware acceleration
+ through the AF_ALG kernel interface.
+ See https://www.openssl.org/docs/man1.1.1/man5/config.html#Engine-Configuration-Module
+ and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
+ The engine_id is "afalg"
+
+Package: libopenssl-conf
+Version: 1.1.1q-1
+Depends: libc, libopenssl1.1
+Source: feeds/base/package/libs/openssl
+SourceName: libopenssl-conf
+License: OpenSSL
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1665837957
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4468
+Filename: libopenssl-conf_1.1.1q-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5478
+SHA256sum: 79d3cda23ead27e131cb48155380bbb9b2208520e28d411b6aee342a51225340
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
+
+Package: libopenssl-devcrypto
+Version: 1.1.1q-1
+Depends: libc, libopenssl1.1, libopenssl-conf, kmod-cryptodev
+Source: feeds/base/package/libs/openssl
+SourceName: libopenssl-devcrypto
+License: OpenSSL
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1665837957
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 7947
+Filename: libopenssl-devcrypto_1.1.1q-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9154
+SHA256sum: e8d4e460d25d5dec8646a7434a5cc579d0605f9a0e586ff15f08cbc7668db5c4
+Description:  This package adds an engine that enables hardware acceleration
+ through the /dev/crypto kernel interface.
+ See https://www.openssl.org/docs/man1.1.1/man5/config.html#Engine-Configuration-Module
+ and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
+ The engine_id is "devcrypto"
+
+Package: libopenssl1.1
+Version: 1.1.1q-1
+Depends: libc
+Provides: libopenssl
+Source: feeds/base/package/libs/openssl
+SourceName: libopenssl
+License: OpenSSL
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1665837957
+ABIVersion: 1.1
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1108082
+Filename: libopenssl1.1_1.1.1q-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1098069
+SHA256sum: 395845a13219e9563f6b9d3f1ca57b76cfd7bd556e264c1c6be8fcdec9c5b891
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libpcre16
+Version: 8.45-1
+Depends: libc
+Source: feeds/base/package/libs/pcre
+SourceName: libpcre16
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+SourceDateEpoch: 1665837957
+CPE-ID: cpe:/a:pcre:pcre
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 125087
+Filename: libpcre16_8.45-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 125927
+SHA256sum: a040ea7c91dd9f81014576b0ae6448aa30185c0078ace970c1657176140fc355
+Description:  A Perl Compatible Regular Expression library (16bit support)
+
+Package: libpcre32
+Version: 8.45-1
+Depends: libc
+Source: feeds/base/package/libs/pcre
+SourceName: libpcre32
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+SourceDateEpoch: 1665837957
+CPE-ID: cpe:/a:pcre:pcre
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 116943
+Filename: libpcre32_8.45-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 117696
+SHA256sum: 144963420d94fda30a2dd607b8140200bd03ea511303c48720afb2a8482eb4a6
+Description:  A Perl Compatible Regular Expression library (32bit support)
+
+Package: libpcre
+Version: 8.45-1
+Depends: libc
+Source: feeds/base/package/libs/pcre
+SourceName: libpcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+SourceDateEpoch: 1665837957
+CPE-ID: cpe:/a:pcre:pcre
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 135866
+Filename: libpcre_8.45-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 136632
+SHA256sum: e65d9043d67d9b10530b997779a4b75ea34f62b9fed896c09beeca88ff381d43
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpcrecpp
+Version: 8.45-1
+Depends: libc, libpcre, libstdcpp6
+Source: feeds/base/package/libs/pcre
+SourceName: libpcrecpp
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+SourceDateEpoch: 1665837957
+CPE-ID: cpe:/a:pcre:pcre
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10707
+Filename: libpcrecpp_8.45-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11534
+SHA256sum: defd03a25405b9f53c3d0d4e0f9f879a498fd04dcdba24648d8e64f440a9dfe4
+Description:  C++ wrapper for Perl Compatible Regular Expression library
+
+Package: libreadline8
+Version: 8.1-1
+Depends: libc, libncursesw6
+Provides: libreadline
+Source: feeds/base/package/libs/readline
+SourceName: libreadline
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1665837957
+ABIVersion: 8
+CPE-ID: cpe:/a:gnu:readline
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 125317
+Filename: libreadline8_8.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 124871
+SHA256sum: 9f13bbb386868f643fb30f3e68609989704d866fa13e87d05dd733affc89350b
+Description:  The Readline library provides a set of functions for use by applications
+ that allow users to edit command lines as they are typed in. Both Emacs
+ and vi editing modes are available. The Readline library includes
+ additional functions to maintain a list of previously-entered command
+ lines, to recall and perhaps reedit those lines, and perform csh-like
+ history expansion on previous commands.
 
 Package: libubox-lua
 Version: 2022-05-15-d2223ef9-1
@@ -1819,6 +2111,26 @@ Description:  Lua is a powerful light-weight programming language designed for e
  language. Lua is free software.
  This package contains Lua language examples.
 
+Package: lua5.3
+Version: 5.3.5-5
+Depends: libc, liblua5.3-5.3
+Source: feeds/base/package/utils/lua5.3
+SourceName: lua5.3
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+SourceDateEpoch: 1665837957
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4984
+Filename: lua5.3_5.3.5-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5829
+SHA256sum: bd4b5404222f8810d5648b3c20881a19772a78ce42a9a85007e170337b58a976
+Description:  Lua is a powerful, efficient, lightweight, embeddable scripting language. It
+ supports procedural programming, object-oriented programming, functional
+ programming, data-driven programming, and data description.
+ This package contains the Lua language interpreter.
+
 Package: lua
 Version: 5.1.5-10
 Depends: libc, liblua5.1.5
@@ -1838,6 +2150,26 @@ Description:  Lua is a powerful light-weight programming language designed for e
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
  This package contains the Lua language interpreter.
+
+Package: luac5.3
+Version: 5.3.5-5
+Depends: libc, liblua5.3-5.3
+Source: feeds/base/package/utils/lua5.3
+SourceName: luac5.3
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+SourceDateEpoch: 1665837957
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5579
+Filename: luac5.3_5.3.5-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6436
+SHA256sum: 915cf86ef1e0b17cf1c6a93e6a10ebe84d71c6557d3122a7fa494d8e5b2ec9b4
+Description:  Lua is a powerful, efficient, lightweight, embeddable scripting language. It
+ supports procedural programming, object-oriented programming, functional
+ programming, data-driven programming, and data description.
+ This package contains the Lua language compiler.
 
 Package: luac
 Version: 5.1.5-10
@@ -2004,6 +2336,28 @@ Filename: objdump_2.37-2_arm_cortex-a9_vfpv3-d16.ipk
 Size: 145387
 SHA256sum: 5ddfca36f2f9b633d345d33185ae5121a7ebd1ba76485f921c56eac5bcf49316
 Description:  objdump
+
+Package: openssl-util
+Version: 1.1.1q-1
+Depends: libc, libopenssl1.1, libopenssl-conf
+Source: feeds/base/package/libs/openssl
+SourceName: openssl-util
+License: OpenSSL
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1665837957
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 247672
+Filename: openssl-util_1.1.1q-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 245877
+SHA256sum: e44224e6ee4fd929907293d3497c9f0a4a0914094051fc04d9cfe1be2da5dd9d
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package contains the OpenSSL command-line utility.
 
 Package: p54-pci-firmware
 Version: 1
@@ -2569,6 +2923,22 @@ Filename: tc-tiny_5.15.0-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 158957
 SHA256sum: 0f3499f3f1b9338e7b63259eb2cf72e0fa564a18e3495122e84117ce94a4ccec
 Description:  Traffic control utility (minimal)
+
+Package: terminfo
+Version: 6.3-1
+Depends: libc
+Source: feeds/base/package/libs/ncurses
+SourceName: terminfo
+License: MIT
+LicenseFiles: README
+Section: libs
+SourceDateEpoch: 1665837957
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 7284
+Filename: terminfo_6.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8013
+SHA256sum: b92d8e95709889819c402408848772e01fa58e820f603f00b072b9ecb11c62bc
+Description:  Terminal Info Database (ncurses)
 
 Package: ti-3410-firmware
 Version: 20220411-1

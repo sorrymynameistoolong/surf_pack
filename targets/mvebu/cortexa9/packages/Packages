@@ -1871,6 +1871,19 @@ Size: 4300
 SHA256sum: 5d167b8242404ad155054f9cf28179b1ed71de9c8bc608fd9d86f9030da1599e
 Description:  XTS cipher CryptoAPI module
 
+Package: kmod-cryptodev
+Version: 5.10.146+1.12-mvebu-1
+Depends: kernel (=5.10.146-1-3e2a590cedf3903646bd7437da0b5d14), kmod-crypto-authenc, kmod-crypto-hash
+License: GPL-2.0
+Section: kernel
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21492
+Filename: kmod-cryptodev_5.10.146+1.12-mvebu-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22342
+SHA256sum: 7120b38696ddb7ee83e5e9e21e0796d721bb65286686f8c8b1fd8afcf57be95c
+Description:  This is a driver for that allows to use the Linux kernel supported
+ hardware ciphers by user-space applications.
+
 Package: kmod-dax
 Version: 5.10.146-1
 Depends: kernel (=5.10.146-1-3e2a590cedf3903646bd7437da0b5d14)

@@ -1522,6 +1522,48 @@ Size: 57000
 SHA256sum: d93f090a17374b314783150e59036ce4bad41c95f5e03ae67c0fe593c23448e5
 Description:  A client-side URL transfer utility
 
+Package: halog
+Version: 2.4.17-95
+Depends: libc, haproxy
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:haproxy:haproxy
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 13911
+Filename: halog_2.4.17-95_arm_cortex-a9_vfpv3-d16.ipk
+Size: 14683
+SHA256sum: d43bd9e0bac3cebd458658f56bd38a88dd4bf4d2f7d5e2cb9bed03e842f3a3dd
+Description:  HAProxy Log Analyzer
+
+Package: haproxy-nossl
+Version: 2.4.17-95
+Depends: libc, libpcre, libltdl7, zlib, libpthread, liblua5.3-5.3, libatomic1
+Conflicts: haproxy
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:haproxy:haproxy
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 881459
+Filename: haproxy-nossl_2.4.17-95_arm_cortex-a9_vfpv3-d16.ipk
+Size: 881155
+SHA256sum: 410e5a402b47a1a14296c68a69dc60af674fba8a30831a4ed8675be78c0fe943
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built without SSL support.
+
+Package: haproxy
+Version: 2.4.17-95
+Depends: libc, libpcre, libltdl7, zlib, libpthread, liblua5.3-5.3, libopenssl1.1, libncurses6, libreadline8, libatomic1
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:haproxy:haproxy
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 953205
+Filename: haproxy_2.4.17-95_arm_cortex-a9_vfpv3-d16.ipk
+Size: 953163
+SHA256sum: 50eccd6c3613108664d568609a5869a09b22b0708c32ea4280fa0ae5459cce4a
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built with SSL and LUA support.
+
 Package: libacl
 Version: 2.3.1-1
 Depends: libc, libattr
@@ -1592,49 +1634,6 @@ Description:  InfoZIP's unzip program. With the exception of multi-volume archiv
  (ie, .ZIP files that are split across several disks using PKZIP's /& option),
  this can handle any file produced either by PKZIP, or the corresponding
  InfoZIP zip program.
-
-Package: v2ray-core
-Version: 5.1.0-1
-Depends: libc, ca-bundle
-License: MIT
-Section: net
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7993571
-Filename: v2ray-core_5.1.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 7980155
-SHA256sum: 6344c3b527250b4a0152ed245af2fe7ff34e0bd0a68ad6244c4b7a77e5cd548b
-Description:  Project V is a set of network tools that help you to build your own computer network.
- It secures your network connections and thus protects your privacy.
-
-Package: v2ray-example
-Version: 5.1.0-1
-Depends: libc, v2ray-core
-License: MIT
-Section: net
-Architecture: all
-Installed-Size: 566
-Filename: v2ray-example_5.1.0-1_all.ipk
-Size: 1416
-SHA256sum: b5fec0770ace400938ad8429eee4181051889f86e820124c1d30f133cd94f9b8
-Description:  Project V is a set of network tools that help you to build your own computer network.
- It secures your network connections and thus protects your privacy.
- 
- This includes example configuration files for v2ray-core.
-
-Package: v2ray-extra
-Version: 5.1.0-1
-Depends: libc, v2ray-core
-License: MIT
-Section: net
-Architecture: all
-Installed-Size: 298637
-Filename: v2ray-extra_5.1.0-1_all.ipk
-Size: 299336
-SHA256sum: 0d5f2c2605498039c83ec9d82ec80a77013a9b041f2125c2e090cd470aa27f0a
-Description:  Project V is a set of network tools that help you to build your own computer network.
- It secures your network connections and thus protects your privacy.
- 
- This includes extra resources for v2ray-core.
 
 Package: v2ray-geoip
 Version: 202209170841-1
