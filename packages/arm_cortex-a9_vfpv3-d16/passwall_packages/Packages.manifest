@@ -9,10 +9,10 @@ Section: net
 SourceDateEpoch: 1677859670
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2611454
+Installed-Size: 2614531
 Filename: naiveproxy_110.0.5481.100-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2604336
-SHA256sum: 07a8efa01d4100a69120ae5684df06b7bf3672c8b35bac50c047f0dc55b8d4d0
+Size: 2607253
+SHA256sum: 8a5219c1b65630837229392ba54db422b0387ff9eabac4716c2572081dc41ccd
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.
@@ -27,43 +27,26 @@ LicenseFiles: license.txt
 Section: net
 SourceDateEpoch: 1677859670
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 3263
+Installed-Size: 3443
 Filename: tcping_0.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 3976
-SHA256sum: 7800dd07d30ac468dc5c1efb65bc4e8584ad550ac16285f72a74d9a6f9574a42
+Size: 4152
+SHA256sum: 1a78fdf1a0c017eff63c10aa7468e3516d268f94d4a36286b3e0fa6b14d31ed8
 Description:  tcping measures the latency of a tcp-connection
 
-Package: v2ray-geoip
-Version: 202302090046-1
-Depends: libc
-Source: feeds/passwall_packages/v2ray-geodata
-SourceName: v2ray-geoip
-License: CC-BY-SA-4.0
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1677859670
-Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
-Architecture: all
-Installed-Size: 2312669
-Filename: v2ray-geoip_202302090046-1_all.ipk
-Size: 2056715
-SHA256sum: b69e644a6ef2e68da23994a23478239100ce1e8c26ffb1bcd67799bc718f04f5
-Description:  GeoIP List for V2Ray
-
-Package: v2ray-geosite
-Version: 20230208103804-1
-Depends: libc
-Source: feeds/passwall_packages/v2ray-geodata
-SourceName: v2ray-geosite
+Package: v2ray-plugin
+Version: 5.4.0-1
+Depends: libc, ca-bundle
+Source: feeds/passwall_packages/v2ray-plugin
+SourceName: v2ray-plugin
 License: MIT
 LicenseFiles: LICENSE
 Section: net
 SourceDateEpoch: 1677859670
-Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
-Architecture: all
-Installed-Size: 437806
-Filename: v2ray-geosite_20230208103804-1_all.ipk
-Size: 437356
-SHA256sum: c54a50516a319992fd145e1d52dc9fa8631d527964df723422c7b3002f23608b
-Description:  Geosite List for V2Ray
+Maintainer: madeye <max.c.lv@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4864011
+Filename: v2ray-plugin_5.4.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4858050
+SHA256sum: 63794e8bda2d24d6d161b23ec05a4d4eeb91ec8c377f42bf730cb7e0a4e5614f
+Description:  SIP003 plugin for shadowsocks, based on v2ray
 
