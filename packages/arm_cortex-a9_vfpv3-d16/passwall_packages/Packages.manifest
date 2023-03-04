@@ -1,87 +1,18 @@
-Package: chinadns-ng
-Version: 1.0-beta.25-1
-Depends: libc, ipset
-Source: feeds/passwall_packages/chinadns-ng
-SourceName: chinadns-ng
-License: AGPL-3.0-only
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1674201786
-Maintainer: pexcn <i@pexcn.me>
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 16619
-Filename: chinadns-ng_1.0-beta.25-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 17401
-SHA256sum: e8ebf6cc629730bc121602b0250179114a5f874f7cc58243a166e61b1ce3cd73
-Description:  ChinaDNS next generation, refactoring with epoll and ipset.
-
-Package: dns2socks
-Version: 2.1-2
-Depends: libc, libpthread
-Source: feeds/passwall_packages/dns2socks
-SourceName: dns2socks
-License: BSD-3-Clause
-Section: net
-SourceDateEpoch: 1674201786
-Maintainer: ghostmaker
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 10753
-Filename: dns2socks_2.1-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 11548
-SHA256sum: 6c2a40ebb74e09b4234f6fdacf7897d17222e9544111ac8bfe0f280170aa2beb
-Description:  This is a command line utility to resolve DNS requests via
- a SOCKS tunnel like Tor or a HTTP proxy.
-
-Package: dns2tcp
-Version: 1.1.0-1
-Depends: libc
-Source: feeds/passwall_packages/dns2tcp
-SourceName: dns2tcp
-License: AGPL-3.0-only
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1674201786
-Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 11440
-Filename: dns2tcp_1.1.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 12231
-SHA256sum: 10e45ea97f7988a713c99da4594e18ce1dafeec71ecaffe10beb6e7781463c36
-Description:  utility to convert dns query from udp to tcp
-
-Package: microsocks
-Version: 1.0.3-1
-Depends: libc, libpthread
-Source: feeds/passwall_packages/microsocks
-SourceName: microsocks
-License: MIT
-LicenseFiles: COPYING
-Section: net
-SourceDateEpoch: 1674201786
-Maintainer: lean
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 5264
-Filename: microsocks_1.0.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 6084
-SHA256sum: af23171a39a8db550c19bcd8746e00aee8abcf26b25573431a758e1ffefbd67f
-Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
- through them, if for some reason SSH doesn't cut it for you.
-
 Package: naiveproxy
-Version: 109.0.5414.74-1-1
+Version: 110.0.5481.100-1-1
 Depends: libc, libatomic1
 Source: feeds/passwall_packages/naiveproxy
 SourceName: naiveproxy
 License: BSD 3-Clause
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1674201786
+SourceDateEpoch: 1677859670
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2565404
-Filename: naiveproxy_109.0.5414.74-1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2558306
-SHA256sum: eaade145e2c743911b7408bafd59f7d28ed2d347a4f81e312ff41abe415996e3
+Installed-Size: 2614531
+Filename: naiveproxy_110.0.5481.100-1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2607253
+SHA256sum: 8a5219c1b65630837229392ba54db422b0387ff9eabac4716c2572081dc41ccd
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.
@@ -94,28 +25,28 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1674201786
+SourceDateEpoch: 1677859670
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 3442
+Installed-Size: 3443
 Filename: tcping_0.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4153
-SHA256sum: 392945b35d1e6597f07c82f203e4aada90f01b80fc5dbb61ff75b0c7aeeed0d2
+Size: 4152
+SHA256sum: 1a78fdf1a0c017eff63c10aa7468e3516d268f94d4a36286b3e0fa6b14d31ed8
 Description:  tcping measures the latency of a tcp-connection
 
-Package: xray-plugin
-Version: 1.7.2-1
+Package: v2ray-plugin
+Version: 5.4.0-1
 Depends: libc, ca-bundle
-Source: feeds/passwall_packages/xray-plugin
-SourceName: xray-plugin
+Source: feeds/passwall_packages/v2ray-plugin
+SourceName: v2ray-plugin
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1674201786
-Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+SourceDateEpoch: 1677859670
+Maintainer: madeye <max.c.lv@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 5750244
-Filename: xray-plugin_1.7.2-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 5741217
-SHA256sum: 2e59cf46043e6bd27b6f6f5068af4e590043b7c352077c9481583b7b7f5ac25f
-Description:  SIP003 plugin for Shadowsocks, based on Xray
+Installed-Size: 4864011
+Filename: v2ray-plugin_5.4.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4858050
+SHA256sum: 63794e8bda2d24d6d161b23ec05a4d4eeb91ec8c377f42bf730cb7e0a4e5614f
+Description:  SIP003 plugin for shadowsocks, based on v2ray
 

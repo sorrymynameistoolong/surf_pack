@@ -1,29 +1,29 @@
 Package: luci-app-passwall2
-Version: 1.5
-Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, v2ray-geoip, v2ray-geosite, unzip, naiveproxy
+Version: 1.9
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, v2ray-geoip, v2ray-geosite, unzip, naiveproxy, v2ray-plugin
 Source: feeds/passwall2/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1674147403
+SourceDateEpoch: 1677044037
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 184699
-Filename: luci-app-passwall2_1.5_all.ipk
-Size: 185743
-SHA256sum: 88fd66daa0b72743941907ead11339ac738682a8482781e5ce9d13e425535bcf
+Installed-Size: 185755
+Filename: luci-app-passwall2_1.9_all.ipk
+Size: 186806
+SHA256sum: f711f72d7b92c2ceb0338aab0efaf26a327839a357882b215126aeeb87e5487c
 Description:  LuCI support for PassWall 2
 
 Package: luci-i18n-passwall2-zh-cn
-Version: git-23.019.61003-4c4ac1c
+Version: git-23.053.20037-b123162
 Depends: libc, luci-app-passwall2
 Source: feeds/passwall2/luci-app-passwall2
 SourceName: luci-i18n-passwall2-zh-cn
 Section: luci
-SourceDateEpoch: 1674147403
+SourceDateEpoch: 1677044037
 Architecture: all
-Installed-Size: 9432
-Filename: luci-i18n-passwall2-zh-cn_git-23.019.61003-4c4ac1c_all.ipk
-Size: 10265
-SHA256sum: 7c697451f7c9aefb2f5fa1ab479831cd746d60c67d83be3ef1df05ad73847e8f
+Installed-Size: 9631
+Filename: luci-i18n-passwall2-zh-cn_git-23.053.20037-b123162_all.ipk
+Size: 10463
+SHA256sum: bbd3be0d42e54d6b18a21938fd3748aba60c055426f98c1cfd176c637f5d99b3
 Description:  Translation for luci-app-passwall2 - 简体中文 (Chinese Simplified)
 

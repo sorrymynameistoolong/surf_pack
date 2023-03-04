@@ -2054,79 +2054,22 @@ Description:  Full versions of standard GNU utilities. If an equivalent Busybox 
  usually smaller, at the expense of reduced functionality.
 
 Package: curl
-Version: 7.85.0-6.1
+Version: 7.86.0-2
 Depends: libc, libcurl4
 Source: feeds/packages/net/curl
 SourceName: curl
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1665399489
+SourceDateEpoch: 1667474189
 CPE-ID: cpe:/a:haxx:libcurl
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 56232
-Filename: curl_7.85.0-6.1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 57000
-SHA256sum: d93f090a17374b314783150e59036ce4bad41c95f5e03ae67c0fe593c23448e5
+Installed-Size: 56445
+Filename: curl_7.86.0-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 57206
+SHA256sum: 57b9905385eb8142d201e558b1f518b215d207bf77d0e0edf854c66c620bab40
 Description:  A client-side URL transfer utility
-
-Package: halog
-Version: 2.4.17-95
-Depends: libc, haproxy
-Source: feeds/packages/net/haproxy
-SourceName: halog
-License: GPL-2.0-only
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1653523511
-CPE-ID: cpe:/a:haproxy:haproxy
-Maintainer: Thomas Heil <heil@terminal-consulting.de>, Christian Lachner <gladiac@gmail.com>
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 13911
-Filename: halog_2.4.17-95_arm_cortex-a9_vfpv3-d16.ipk
-Size: 14683
-SHA256sum: d43bd9e0bac3cebd458658f56bd38a88dd4bf4d2f7d5e2cb9bed03e842f3a3dd
-Description:  HAProxy Log Analyzer
-
-Package: haproxy-nossl
-Version: 2.4.17-95
-Depends: libc, libpcre, libltdl7, zlib, libpthread, liblua5.3-5.3, libatomic1
-Conflicts: haproxy
-Source: feeds/packages/net/haproxy
-SourceName: haproxy-nossl
-License: GPL-2.0-only
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1653523511
-CPE-ID: cpe:/a:haproxy:haproxy
-Maintainer: Thomas Heil <heil@terminal-consulting.de>, Christian Lachner <gladiac@gmail.com>
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 881459
-Filename: haproxy-nossl_2.4.17-95_arm_cortex-a9_vfpv3-d16.ipk
-Size: 881155
-SHA256sum: 410e5a402b47a1a14296c68a69dc60af674fba8a30831a4ed8675be78c0fe943
-Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
- This package is built without SSL support.
-
-Package: haproxy
-Version: 2.4.17-95
-Depends: libc, libpcre, libltdl7, zlib, libpthread, liblua5.3-5.3, libopenssl1.1, libncurses6, libreadline8, libatomic1
-Source: feeds/packages/net/haproxy
-SourceName: haproxy
-License: GPL-2.0-only
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1653523511
-CPE-ID: cpe:/a:haproxy:haproxy
-Maintainer: Thomas Heil <heil@terminal-consulting.de>, Christian Lachner <gladiac@gmail.com>
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 953205
-Filename: haproxy_2.4.17-95_arm_cortex-a9_vfpv3-d16.ipk
-Size: 953163
-SHA256sum: 50eccd6c3613108664d568609a5869a09b22b0708c32ea4280fa0ae5459cce4a
-Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
- This package is built with SSL and LUA support.
 
 Package: libacl
 Version: 2.3.1-1
@@ -2165,7 +2108,7 @@ Description:  Extended attributes support
  This package provides libattr
 
 Package: libcurl4
-Version: 7.85.0-6.1
+Version: 7.86.0-2
 Depends: libc, libmbedtls12, libnghttp2-14, ca-bundle
 Provides: libcurl
 Source: feeds/packages/net/curl
@@ -2173,15 +2116,15 @@ SourceName: libcurl
 License: MIT
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1665399489
+SourceDateEpoch: 1667474189
 ABIVersion: 4
 CPE-ID: cpe:/a:haxx:libcurl
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 152304
-Filename: libcurl4_7.85.0-6.1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 152481
-SHA256sum: 5d132338f5d1d082980a57460377b054f780b0be2ab0d0794cdc4459b7a65c29
+Installed-Size: 152566
+Filename: libcurl4_7.86.0-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 152601
+SHA256sum: 939de9a4774de331ef4c90903375116d87f843127cd003df4c0dba9f6a7f8602
 Description:  A client-side URL transfer library
 
 Package: libnghttp2-14
@@ -2225,7 +2168,7 @@ Description:  InfoZIP's unzip program. With the exception of multi-volume archiv
  InfoZIP zip program.
 
 Package: v2ray-geoip
-Version: 202209170841-1
+Version: 202212220043-1
 Depends: libc
 Provides: v2ray-geodata, xray-geodata, xray-geoip
 Source: feeds/packages/net/v2ray-geodata
@@ -2233,17 +2176,17 @@ SourceName: v2ray-geoip
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1665330661
+SourceDateEpoch: 1672203400
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 2249281
-Filename: v2ray-geoip_202209170841-1_all.ipk
-Size: 1957715
-SHA256sum: cd8e1130e9389647c9e6708f3dd486671d66c7c588c40bf7bc4d80a9dfd13fce
+Installed-Size: 2225508
+Filename: v2ray-geoip_202212220043-1_all.ipk
+Size: 1992060
+SHA256sum: fae8b7a7477b8536e73c919eae7a7ea4e3da203bd825200d5b3cc4b874e6b6f0
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20220918140014-1
+Version: 20221226075817-1
 Depends: libc
 Provides: v2ray-geodata, xray-geodata, xray-geosite
 Source: feeds/packages/net/v2ray-geodata
@@ -2251,48 +2194,48 @@ SourceName: v2ray-geosite
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1665330661
+SourceDateEpoch: 1672203400
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 386645
-Filename: v2ray-geosite_20220918140014-1_all.ipk
-Size: 386143
-SHA256sum: aa4109b6bc78d17f3fa2b361cbc11214f6a519ce8bba33d98eb0bd10f5c6481c
+Installed-Size: 427242
+Filename: v2ray-geosite_20221226075817-1_all.ipk
+Size: 426723
+SHA256sum: d7c1fce8b45bd86fb9ece110a2e68402224977776ac05f7bbef0c56c9510ff9f
 Description:  Geosite List for V2Ray
 
 Package: xray-core
-Version: 1.6.0-2
+Version: 1.7.0-1
 Depends: libc, ca-bundle
 Source: feeds/packages/net/xray-core
 SourceName: xray-core
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1665330661
+SourceDateEpoch: 1672203390
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7642210
-Filename: xray-core_1.6.0-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 7631078
-SHA256sum: cd279c334206f09393ca65bd075c9d6c87b6fa7c51297591495eda102d566f12
+Installed-Size: 8897592
+Filename: xray-core_1.7.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8884241
+SHA256sum: ec8a30e26e0040617b04fb5a2099f44c0d7a1ea9815eb298798965f9117a4905
 Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
  It secures your network connections and thus protects your privacy.
 
 Package: xray-example
-Version: 1.6.0-2
+Version: 1.7.0-1
 Depends: libc, xray-core
 Source: feeds/packages/net/xray-core
 SourceName: xray-example
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1665330661
+SourceDateEpoch: 1672203390
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 552
-Filename: xray-example_1.6.0-2_all.ipk
-Size: 1403
-SHA256sum: 10c84f2f1da286e7d8b294405ceed039bfc67a4c83a4db915e21161927393dc3
+Installed-Size: 553
+Filename: xray-example_1.7.0-1_all.ipk
+Size: 1407
+SHA256sum: b1451c7be24b26e7be7bb551c0fb57619391c32f4bd9ff01c1044b20c4ec7527
 Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
  It secures your network connections and thus protects your privacy.
  
